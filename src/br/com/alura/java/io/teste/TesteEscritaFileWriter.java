@@ -2,7 +2,7 @@ package br.com.alura.java.io.teste;
 
 import java.io.*;
 
-public class TesteEscritaAltoNivel {
+public class TesteEscritaFileWriter {
 
     public static void main(String[] args) throws IOException {
 
