@@ -6,15 +6,15 @@ public class TesteEscritaPrintStream {
 
     public static void main(String[] args) throws IOException {
 
-        PrintStream printStream = new PrintStream("loremEscritoPrintStream.txt");
+        PrintWriter printWriter = new PrintWriter("loremEscritoPrintWriter.txt","UTF-8");
 
-        printStream.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
-        printStream.println();
-        printStream.println();
-        printStream.println();
-        printStream.println("Teste de nova linha escrita");
+        printWriter.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
+        printWriter.println();
+        printWriter.println();
+        printWriter.println();
+        printWriter.println("Teste de nova linha escrita");
 
-        printStream.close();
+        printWriter.close();
     }
 
 }
